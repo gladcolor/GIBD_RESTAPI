@@ -74,7 +74,7 @@
               "name": "cnt",
               "type": "integer"
             },
-            "sizeScale": "sqrt"
+            "sizeScale": "log"
           }
         },
         {
@@ -367,10 +367,10 @@
     "mapState": {
       "bearing": 0,
       "dragRotate": false,
-      "latitude": 37.63579573120376,
-      "longitude": -101.22325659971959,
+      "latitude": 45.92929923387351,
+      "longitude": -81.63538577397297,
       "pitch": 0,
-      "zoom": 3.557201841736332,
+      "zoom": 3.147537529906457,
       "isSplit": false
     },
     "mapStyle": {
@@ -383,7 +383,7 @@
         "building": true,
         "water": true,
         "land": true,
-        "3d building": true
+        "3d building": false
       },
       "threeDBuildingColor": [
         9.665468314072013,
