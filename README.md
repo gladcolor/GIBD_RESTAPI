@@ -39,4 +39,4 @@ data:
 runtime:
     C:\Users\GPU\AppData\Roaming\jupyter\runtime
 ```
- 
+This path is your `keplergl\static` files need to be copied to: `C:\ProgramData\Anaconda3\share\jupyter`.
