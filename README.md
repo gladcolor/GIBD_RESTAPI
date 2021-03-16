@@ -30,11 +30,11 @@ You can use `jupyter --paths` to check where jupyter install extensions:
 $ jupyter --paths
 config:
     C:\Users\GPU\.jupyter
-    C:\ProgramData\Anaconda3\envs\gdal_env\etc\jupyter
+    C:\ProgramData\Anaconda3\etc\jupyter
     C:\ProgramData\jupyter
 data:
     C:\Users\GPU\AppData\Roaming\jupyter
-    C:\ProgramData\Anaconda3\envs\gdal_env\share\jupyter
+    C:\ProgramData\Anaconda3\share\jupyter
     C:\ProgramData\jupyter
 runtime:
     C:\Users\GPU\AppData\Roaming\jupyter\runtime
