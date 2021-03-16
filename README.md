@@ -20,26 +20,23 @@ If keplergl map does not show up in your Jupyter Notebook, see through this [pos
 The solution is:
 
 1) Copy files in folder `C:\Users\GPU\AppData\Roaming\Python\Python37\site-packages\keplergl\static`  to `C:\ProgramData\Anaconda3\share\jupyter\nbextensions\keplergl-jupyter`
-2) Copy file `keplergl-jupyter.json` to `etc/jupyter/nbconfig/notebook.d`
+2) Copy file `keplergl-jupyter.json` to `C:\ProgramData\Anaconda3\etc\jupyter\nbconfig\notebook.d`
 
-Please replace the path accordingly.
+Please replace the paths accordingly.
 
-You can use jupyter --paths to check where jupyter install extensions:
+You can use `jupyter --paths` to check where jupyter install extensions:
 
 ```
 $ jupyter --paths
 config:
-    /Users/Olivier/.jupyter
-    /usr/local/anaconda3/etc/jupyter
-    /usr/local/etc/jupyter
-    /etc/jupyter
+    C:\Users\GPU\.jupyter
+    C:\ProgramData\Anaconda3\envs\gdal_env\etc\jupyter
+    C:\ProgramData\jupyter
 data:
-    /Users/Olivier/Library/Jupyter
-    /usr/local/anaconda3/share/jupyter
-    /usr/local/share/jupyter
-    /usr/share/jupyter
+    C:\Users\GPU\AppData\Roaming\jupyter
+    C:\ProgramData\Anaconda3\envs\gdal_env\share\jupyter
+    C:\ProgramData\jupyter
 runtime:
-    /Users/Olivier/Library/Jupyter/runtime
-The flag --sys-prefix means extension are installed in this data folder:
+    C:\Users\GPU\AppData\Roaming\jupyter\runtime
 ```
  
