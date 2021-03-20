@@ -3,6 +3,19 @@
 [ODT Flow Explorer: Extract, Query, and Visualize Global Human Mobility](http://gis.cas.sc.edu/GeoAnalytics/od.html)
 
 
+# Tutorial for REST APIs of ODT Explorer
+You can learn how to use APIs to access the cube data in [Tutorial_RESTAPI_ODT_Explorer.ipynb](https://github.com/gladcolor/GIBD_RESTAPI/blob/main/Tutorial_RESTAPI_ODT_Explorer.ipynb).
+
+
+# Case study: Find COVID-19's spatial impacts on mobility in France
+This [case study](https://github.com/gladcolor/GIBD_RESTAPI/blob/main/ODT_case_study_France.ipynb) shows how to use APIs to extract intra-flows of 13 French administrative regions then make monthly maps.
+![](images/france.png)
+
+
+# Case study: Connectivity of countries in 2019
+This [case study](https://github.com/gladcolor/GIBD_RESTAPI/blob/main/ODT_case_study_country_connectivity.ipynb) shows a way to investigate connectivity between countries using a mobility representation. An interative mapping library named [Keplergl](www.kepler.gl) is used to visulize the flows.
+![](images/countries.png)
+
 # Install keplergl Python library in Windows
 
 -- install GDAL, Shapely, and Fiona
