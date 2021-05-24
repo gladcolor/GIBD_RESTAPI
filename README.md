@@ -68,6 +68,7 @@ Reference: Using geopandas on Windows[https://geoffboeing.com/2014/09/using-geop
 - install cython in the base envrionment of Anaconda, then install the dependencies manually in Anaconda base environment.
 
 ``` conda install -c anaconda cython ```
+
 ``` pip install GDAL***.whl ```
 
 - install geopandas
