@@ -53,3 +53,23 @@ runtime:
     C:\Users\GPU\AppData\Roaming\jupyter\runtime
 ```
 This path `C:\ProgramData\Anaconda3\share\jupyter` is your `keplergl\static` files need to be copied to.
+
+
+# Install GeoPandas in Winodow
+
+Reference: Using geopandas on Windows[https://geoffboeing.com/2014/09/using-geopandas-windows/]
+
+- download dependencies
+
+
+ GDAL, rtree, pyroj, shapely, Finona. (https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal)
+ 
+ 
+- install cython in the base envrionment of Anaconda, then install the dependencies manually in Anaconda base environment.
+
+''' conda install -c anaconda cython '''
+''' pip install GDAL***.whl '''
+
+- install geopandas
+
+'''pip install geopandas'''
