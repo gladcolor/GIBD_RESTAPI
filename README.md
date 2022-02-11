@@ -62,7 +62,7 @@ Reference: Using geopandas on Windows[https://geoffboeing.com/2014/09/using-geop
 - download dependencies
 
 
- GDAL, rtree, pyproj, shapely, Finona. (https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal)
+ GDAL, rtree, pyproj, shapely, Fiona. (https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal)
  
  
 - install cython in the base envrionment of Anaconda, then install the dependencies manually in Anaconda base environment.
