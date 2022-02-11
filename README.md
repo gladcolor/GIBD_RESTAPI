@@ -61,6 +61,7 @@ Reference: Using geopandas on Windows[https://geoffboeing.com/2014/09/using-geop
 
 - download dependencies
 
+Download these packages, but do not install them.
 
  GDAL, rtree, pyproj, shapely, Fiona. (https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal)
  
@@ -69,7 +70,17 @@ Reference: Using geopandas on Windows[https://geoffboeing.com/2014/09/using-geop
 
 ``` conda install -c anaconda cython ```
 
-``` pip install GDAL***.whl ```
+pip install the GDAL wheel file you downloaded. Your actual command will be something like: 
+
+
+``` pip install GDAL-1.11.2-cp27-none-win_amd64.whl```
+
+STOP!
+
+Add the new GDAL path to the windows PATH environment variable, something like C:\Anaconda\Lib\site-packages\osgeo
+
+
+- pip install your Fiona wheel file, then your pyproj wheel file, then rtree, and then shapely.
 
 - install geopandas
 
